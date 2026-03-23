@@ -1,9 +1,9 @@
 ## About this lab
 
-This lab is dedicated for learning penetration testing skill through *CVE-2016-6662: MySQL Remote Root Code Execution*
+This lab is dedicated for learning penetration testing skill through this specified case: MySQL Remote Root Code Execution*
 
 ### Core logic:
-The problem with this CVE lies in the secure_file_priv variable, which was added in MySQL version 5.5.53.
+The root cause with this lab lies in the secure_file_priv variable, which was added in MySQL version 5.5.53.
 It was supposed to add a layer of security since it restricted the privilege to read or write anywhere, which happened a lot back then.
 However, in the early stages of version 5.6 up to version 5.7.6, the default value of secure_file_priv is null, so nothing is changed if the database admin doesn't take extra notice at that point.
 
