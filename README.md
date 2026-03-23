@@ -1,6 +1,6 @@
 ## About this lab
 
-This lab is dedicated for learning penetration testing skill through this specified case: MySQL Remote Root Code Execution*
+This lab is dedicated for learning penetration testing skill through this specified case: MySQL Remote Root Code Execution.
 
 ### Core logic:
 The root cause with this lab lies in the secure_file_priv variable, which was added in MySQL version 5.5.53.
